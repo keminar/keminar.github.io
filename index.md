@@ -12,7 +12,6 @@
     3. C 语言
         3.1 文件遍历小工具
         3.2 并行流式计算
-        3.3 mp4在线转m3u8
 
 ## Linux
 
@@ -32,4 +31,5 @@
     2. [anyproxy](/hub/anyproxy) 是一个部署在Linux系统上的tcp流转发器，可以直接将本地或网络收到的请求发出，也可以将请求转到tunneld或SOCKS或charles等代理. [proxyUI](/hub/proxyui)为Anyproxy程序在Windows上使用提供可视化界面, 方便进行开发环境切换。
 
 ## C 语言
-
+    1. 因为当目录文件很多时ls可能会卡死io,所以开发了[vls](/hub/vls)查看文件夹内文件时给一个的休息时间
+    2. [broker](/hub/broker)通过linux系统管道将一个脚本的输出并发给多个脚本做输入
