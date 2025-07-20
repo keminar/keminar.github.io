@@ -36,16 +36,16 @@ U盘引导成功后, 对于目标系统要安装的硬盘是DOS分区可以使�
 
 ## Go 语言
 
-语言内置的waitGroup 虽然可以实现并行处理,但是不够智能, 当一个任务处理完必须等待同批次的全处理完, 才会统一处理下一批任务, 我实现了一个优化版本 [go-parallel](/hub/go-parallel)
+语言内置的waitGroup 虽然可以实现并行处理,但是不够智能, 当一个任务处理完必须等待同批次的全处理完, 才会统一处理下一批任务, 我实现了一个优化版本 [go-parallel](https://github.com/keminar/go-parallel)
 
-[anyproxy](/hub/anyproxy) 是一个部署在Linux系统上的tcp流转发器，可以直接将本地或网络收到的请求发出，也可以将请求转到tunneld或SOCKS或charles等代理.
+[anyproxy](https://github.com/keminar/anyproxy) 是一个部署在Linux系统上的tcp流转发器，可以直接将本地或网络收到的请求发出，也可以将请求转到tunneld或SOCKS或charles等代理.
 
 ## C 语言
 
-因为当目录文件很多时ls可能会卡死io,所以开发了[vls](/hub/vls)查看文件夹内文件时给一个的休息时间
+因为当目录文件很多时ls可能会卡死io,所以开发了[vls](https://github.com/keminar/vls)查看文件夹内文件时给一个的休息时间
 
-[broker](/hub/broker)通过linux系统管道将一个脚本的输出并发给多个脚本做输入
+[broker](https://github.com/keminar/broker)通过linux系统管道将一个脚本的输出并发给多个脚本做输入
 
-[proxyUI](/hub/proxyui)为Anyproxy程序在Windows上使用提供可视化界面, 方便进行开发环境切换。
+[proxyUI](https://github.com/keminar/proxyui)为Anyproxy程序在Windows上使用提供可视化界面, 方便进行开发环境切换。
 
-[EasyPutty](/hub/EasyPutty)为putty的多标签使用助手 
+[EasyPutty](https://github.com/keminar/EasyPutty)为putty的多标签使用助手 
