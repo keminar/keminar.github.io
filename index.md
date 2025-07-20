@@ -28,11 +28,11 @@ Archlinux的ISO镜像可以在[官网](https://archlinux.org/download/)下载到
 
 U盘引导成功后, 对于目标系统要安装的硬盘是DOS分区可以使用 [tiny.sh](/raw/linux-tools/master/arch/install-from-iso/tiny.sh), 如果要安装硬盘是[GPT分区](https://blog.csdn.net/free050463/article/details/81077468)可以使用 [tiny_gpt.sh](/raw/linux-tools/master/arch/install-from-iso/tiny_gpt.sh) 进行安装
 
-如果当前系统已经是Linux当然也可以不用制作启动U盘, 可参考 [install-from-linux](/hub/linux-tools/tree/master/arch/install-from-linux) 完成系统安装
+如果当前系统已经是Linux当然也可以不用制作启动U盘, 可参考 [install-from-linux](https://github.com/keminar/linux-tools/tree/master/arch/install-from-linux) 完成系统安装
 
-常用软件可以参考 [base](/hub/linux-tools/tree/master/arch/soft-base)  [desktop](/hub/linux-tools/tree/master/arch/soft-desktop)
+常用软件可以参考 [base](https://github.com/keminar/linux-tools/tree/master/arch/soft-base)  [desktop](https://github.com/keminar/linux-tools/tree/master/arch/soft-desktop)
 
-虚拟机显卡直通可参考 [gpu-passthrough](/hub/linux-tools/tree/master/gpu-passthrough)
+虚拟机显卡直通可参考 [gpu-passthrough](https://github.com/keminar/linux-tools/tree/master/gpu-passthrough)
 
 ## Go 语言
 
